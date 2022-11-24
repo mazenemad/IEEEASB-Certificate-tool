@@ -1,0 +1,85 @@
+
+ *
+ {
+     -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+ html,
+body
+{
+    scroll-behavior: smooth;
+    font-family:'Courier New', Courier, monospace;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    background-color:rgb(14,14,17);
+}
+
+header img{
+    max-height:200px ;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form h2{
+    top: 50%;
+    left: 50%;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+.form input{
+    margin-bottom: 60px;
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 2px solid rgb(80, 180, 147)  ;
+    outline: none;
+    color: white;
+    top: 50%;
+    left: 50%;
+    margin-right: auto;
+    margin-left: 5%;
+}
+.form .check{
+    cursor: pointer;
+}
+.form button{
+    cursor: pointer;
+   display: none;
+   top: 0;
+   left: 0;
+   margin-left: auto;
+   margin-right: auto;
+   color: rgb(70, 70, 70);
+   font-size: 20px;
+   font-weight: 100;
+   border: none;
+   border-radius: 8px;
+   width: 170px;
+   height: 40px;
+   background-color:white ;
+}
+.alert2,
+.alert1{
+    display: none;
+    position: fixed;
+    background-color: rgb(39, 36, 33);
+    padding: 20px 40px;
+    min-width: 420px;
+    right: 0px;
+    top: 15px;
+    border-radius: 5px;
+    border-left: 8px solid red;
+}
+.alert2{
+    border-left: 8px solid green;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/a7e2563dbb.js" crossorigin="anonymous"></script>
+    <title>Certificate Tool</title>
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div class="container">
+
+        <header>
+            <img src="static/IEEELOGO.png"/>
+        </header>
+        <div class="form">
+        <h2>Enter Your ID</h2>
+        <input type="text" name="num" id="num" autocapitalize="num" placeholder="Your ID" required> 
+        <i id="submit1" class="fa-solid fa-arrow-right  check"></i>
+        <!-- <button id="submit1"class="check" >Check id</button> -->
+        <button id="submit">Get Certificate</button>
+    </div>
+        <div class="alert1 " id="alert1">
+        <i style="color: red;" class="fa-regular fa-circle-xmark"></i>
+        <span>Warning:You Enterd Wrong ID Number!</span>
+    </div>
+    <div class="alert2" id="alert2">
+        <i style="color: green;" class="fa-regular fa-circle-check"></i>
+        <span>Confirm ID:Please Enter Get Certificate To downlaod</span>
+    </div>
+</div>
+    <!-- <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script> -->
+    <script src="script/FileSever.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
